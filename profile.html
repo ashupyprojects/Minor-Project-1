@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bharat Portal - Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Same header as home -->
+  <header>
+    <div class="left">
+      <img src="icons/emblem.png" height="80" width="50" alt="Emblem">
+      <a href="/index.html">
+        <img src="icons/websitelogo.png" height="80" width="250" alt="Logo">
+      </a>
+      <a href="https://www.digitalindia.gov.in/" target="main">
+        <img src="icons/digitalindia.png" height="50" width="120" class="digital India Logo">
+      </a>
+    </div>
+
+    <div class="center">
+      <input 
+        type="text" 
+        placeholder="Search Central Government Schemes " 
+        class="search-box"
+      >
+    </div>
+
+    <div class="right" id="auth-area"></div>
+  </header>
+
+  <!-- PROFILE CARD LIKE THE DESIGN -->
+  <main class="profile-page">
+    <div class="profile-card-wide">
+
+      <!-- LEFT GRADIENT PANEL -->
+      <div class="profile-card-left">
+        <div class="profile-avatar" id="profile-photo"></div>
+        <h2 class="profile-left-name" id="profile-name"></h2>
+        <p class="profile-left-role" id="profile-left-role">
+          <!-- we can show Beneficiary Type here via JS or just leave blank -->
+        </p>
+      </div>
+
+      <!-- RIGHT WHITE PANEL -->
+      <div class="profile-card-right">
+        <!-- Information section -->
+        <section class="profile-section">
+          <h3 class="profile-section-heading">Information</h3>
+
+          <div class="profile-info-grid">
+            <div class="profile-info-item">
+              <span class="label">Email</span>
+              <span id="profile-email"></span>
+            </div>
+            <div class="profile-info-item">
+              <span class="label">Date of Birth</span>
+              <span id="profile-dob"></span>
+            </div>
+            <div class="profile-info-item">
+              <span class="label">State</span>
+              <span id="profile-state"></span>
+            </div>
+            <div class="profile-info-item">
+              <span class="label">Caste Category</span>
+              <span id="profile-caste"></span>
+            </div>
+          </div>
+        </section>
+          <div class="profile-info-grid">
+            <div class="profile-info-item">
+              <span class="label">Beneficiary Type</span>
+              <span id="profile-category"></span>
+            </div>
+            <div class="profile-info-item">
+              <span class="label">Employment Status</span>
+              <span id="profile-employment"></span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <script src="auth.js"></script>
+</body>
+</html>

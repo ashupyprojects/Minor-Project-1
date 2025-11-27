@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1763748794212,
+    "name": "VIKSAH KUMAR",
+    "dob": "2004-04-04",
+    "state": "BIHAR",
+    "category": "student",
+    "employmentStatus": "unemployed",
+    "casteCategory": "obc",
+    "email": "vikashramanujan@gmail.com",
+    "password": "$2b$10$c0XJxttE6nMji3NkJ9GEFe3YzacznZAlDzlHA3.SCDctKGVB3K7Um"
+  },
+  {
+    "id": 1763808332914,
+    "name": "ASHUTOSH KUMAR",
+    "dob": "2002-12-15",
+    "state": "Bihar",
+    "category": "student",
+    "employmentStatus": "unemployed",
+    "casteCategory": "general",
+    "email": "2023ashutosh@gmail.com",
+    "password": "$2b$10$26PTk5avnCFswpuYUlDq0Oho3hXxAAU1eeSa9bdJkuM3HFgNIT6mq"
+  }
+]
